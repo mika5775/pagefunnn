@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Angkor&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://pibig.info/uploads/posts/2022-11/thumbs/1669649919_26-pibig-info-p-razmitii-fon-oboi-27.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.resumeCard {
+  padding: 20px;
+  width: 500px;
+  height: 250px;
+  background: #005e9b;
+  top: 50%;
+  left: 50%;
+  margin-top: 180px;
+  margin-left: 465px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.resumeCard__photo {
+  width: 150px;
+  height: 100%;
+  float: left;
+}
+
+.resumeCard__avatarWrapper {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  padding: 15px;
+}
+
+.resumeCard__avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  padding: 2px;
+}
+
+.resumeCard__info {
+  width: 350px;
+  height: 100%;
+  float: left;
+}
+
+.resumeCard__contacts {
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
+.icon {
+  height: 26px;
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.icon {
+  transition: 0.1s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.name {
+  padding: 10px;
+  font-size: 30px;
+  font-family: "Angkor", cursive;
+  color: white;
+}
+
+.position {
+  color: rgb(185, 185, 185);
+  font-size: 14px;
+}
+
+.description {
+  color: rgb(185, 185, 185);
+  text-align: justify;
+  font-size: 16px;
+}
+.resumeCard__divider {
+  width: 85px;
+  height: 10px;
+  border-top: 1px solid rgb(185, 185, 185);
+}
